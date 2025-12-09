@@ -1,0 +1,251 @@
+/* ===== LAURA-INSPIRED THEME FOR PROFESSIONAL PAGES ===== */
+
+/* Global */
+body {
+  background-color: #f4f5fb;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Poppins",
+    "Segoe UI", sans-serif;
+  color: #2b2d42;
+}
+
+/* Navbar (Bootstrap) */
+.navbar {
+  background: #171527 !important; /* deep purple/navy */
+  box-shadow: 0 4px 18px rgba(0, 0, 0, 0.4);
+}
+
+.navbar-brand {
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  font-size: 0.82rem;
+}
+
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link:focus,
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: #ff4a57; /* Laura-like accent pink/red */
+}
+
+/* Shared hero styles (for home, about, resume, hobby) */
+.home-hero,
+.about-hero,
+.resume-hero,
+.hobby-hero {
+  background: linear-gradient(135deg, #171527, #302354);
+  color: #fdfdfd;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.home-hero h1,
+.about-hero h1,
+.resume-hero h1,
+.hobby-hero h1 {
+  color: #ffffff;
+}
+
+.home-hero .lead,
+.about-hero .lead,
+.resume-hero .lead,
+.hobby-hero .lead {
+  color: #d9dcff;
+}
+
+/* Small hero taglines if you use them */
+.hero-tag,
+.hobby-tag {
+  text-transform: uppercase;
+  letter-spacing: 0.16em;
+  font-size: 0.78rem;
+  color: #a2a5ff;
+  margin-bottom: 0.6rem;
+}
+
+/* Section titles */
+.section-title {
+  font-size: 1.7rem;
+  font-weight: 700;
+  color: #1f2430;
+  text-align: left;
+  position: relative;
+  display: inline-block;
+  margin-bottom: 1.4rem;
+}
+
+.section-title::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -0.35rem;
+  width: 55%;
+  height: 3px;
+  background: linear-gradient(90deg, #ff4a57, #ffb347);
+  border-radius: 999px;
+}
+
+/* Cards / content blocks for different pages */
+.home-card,
+.about-section,
+.resume-section,
+.hobby-section {
+  background: #ffffff;
+  border-radius: 16px;
+  border: 1px solid #e2e3f0;
+  padding: 1.7rem 1.5rem;
+  box-shadow: 0 10px 30px rgba(15, 23, 42, 0.08);
+  transition: transform 0.1s ease, box-shadow 0.1s ease;
+}
+
+.home-card:hover,
+.about-section:hover,
+.resume-section:hover,
+.hobby-section:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 16px 40px rgba(15, 23, 42, 0.16);
+}
+
+.home-card p,
+.about-section p,
+.resume-section p,
+.hobby-section p,
+.home-card li,
+.about-section li,
+.resume-section li,
+.hobby-section li {
+  color: #3c3f4f;
+  line-height: 1.7;
+}
+
+/* Small card titles */
+.card-title-sm,
+.item-title,
+.item-title-sm {
+  font-weight: 600;
+  color: #222437;
+}
+
+/* Resume layout tweaks */
+.resume-container {
+  max-width: 900px;
+}
+
+/* Resume item header layout */
+.resume-item-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.item-dates {
+  font-size: 0.9rem;
+  color: #6c7085;
+}
+
+.item-subtitle {
+  font-size: 0.95rem;
+  color: #6c7085;
+}
+
+.item-list {
+  margin-top: 0.45rem;
+  padding-left: 1.2rem;
+}
+
+/* Fun fact cards on hobby, if you’re using them */
+.hobby-facts-row {
+  max-width: 950px;
+  margin: 0 auto;
+}
+
+.hobby-fact-card {
+  background-color: #ffffff;
+  border-radius: 16px;
+  padding: 1.2rem 1rem;
+  border: 1px dashed #e2c6ff;
+  text-align: center;
+  height: 100%;
+  box-shadow: 0 6px 22px rgba(15, 23, 42, 0.08);
+}
+
+.fact-emoji {
+  font-size: 1.6rem;
+  display: block;
+  margin-bottom: 0.4rem;
+}
+
+.fact-text {
+  font-size: 0.96rem;
+  color: #3c3f4f;
+  margin: 0;
+}
+
+/* Buttons (Laura-like accent) */
+.btn-primary {
+  background: #ff4a57;
+  border-color: #ff4a57;
+  color: #ffffff;
+  border-radius: 999px;
+  font-weight: 500;
+  padding-inline: 1.3rem;
+}
+
+.btn-primary:hover {
+  background: #e13744;
+  border-color: #e13744;
+}
+
+.btn-outline-primary {
+  color: #ff4a57;
+  border-color: #ff4a57;
+  border-radius: 999px;
+  font-weight: 500;
+  padding-inline: 1.3rem;
+}
+
+.btn-outline-primary:hover {
+  color: #ffffff;
+  background: #ff4a57;
+  border-color: #ff4a57;
+}
+
+.btn-outline-secondary {
+  color: #44465b;
+  border-color: #cfd0df;
+  border-radius: 999px;
+}
+
+.btn-outline-secondary:hover {
+  color: #1f2430;
+  background-color: #e8e9f5;
+  border-color: #cfd0df;
+}
+
+/* Hero spacing on small screens */
+@media (max-width: 576px) {
+  .home-hero,
+  .about-hero,
+  .resume-hero,
+  .hobby-hero {
+    padding-top: 2.4rem;
+    padding-bottom: 2.4rem;
+  }
+
+  .home-card,
+  .about-section,
+  .resume-section,
+  .hobby-section {
+    padding: 1.4rem 1.2rem;
+  }
+
+  .section-title {
+    font-size: 1.5rem;
+  }
+}

@@ -1,0 +1,117 @@
+/* HOBBY PAGE CUSTOM STYLES */
+
+body {
+  background-color: #f9fbff;
+}
+
+/* Hero */
+.hobby-hero {
+  background: radial-gradient(circle at top left, #ffe9f5, #e8f0ff);
+  border-bottom: 1px solid #d6deee;
+}
+
+.hobby-tag {
+  text-transform: uppercase;
+  letter-spacing: 0.16em;
+  font-size: 0.78rem;
+  color: #7b88aa;
+  margin-bottom: 0.4rem;
+}
+
+.hobby-hero h1 {
+  color: #1a2a4f;
+}
+
+.hobby-hero p {
+  color: #3b4a73;
+}
+
+/* Sections */
+.hobby-section {
+  background-color: #ffffff;
+  padding: 1.6rem 1.4rem;
+  border-radius: 14px;
+  border: 1px solid #e3e7f3;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.03);
+  transition: transform 0.08s ease, box-shadow 0.08s ease;
+  height: 100%;
+}
+
+.hobby-section:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 7px 18px rgba(0, 0, 0, 0.06);
+}
+
+.section-title {
+  font-size: 1.35rem;
+  font-weight: 600;
+  color: #1a2a4f;
+  margin-bottom: 0.75rem;
+}
+
+.hobby-section p,
+.hobby-section li {
+  color: #333848;
+  line-height: 1.6;
+}
+
+.hobby-section ul {
+  margin-bottom: 0;
+  padding-left: 1.1rem;
+}
+
+/* Fun Facts */
+.hobby-facts-row {
+  max-width: 950px;
+  margin: 0 auto;
+}
+
+.hobby-fact-card {
+  background-color: #ffffff;
+  border-radius: 14px;
+  padding: 1.2rem 1rem;
+  border: 1px dashed #e4d6f5;
+  text-align: center;
+  height: 100%;
+}
+
+.fact-emoji {
+  font-size: 1.6rem;
+  display: block;
+  margin-bottom: 0.4rem;
+}
+
+.fact-text {
+  font-size: 0.96rem;
+  color: #3b3f52;
+  margin: 0;
+}
+
+/* Buttons */
+.btn-primary {
+  background-color: #1a2a4f;
+  border-color: #1a2a4f;
+}
+
+.btn-primary:hover {
+  background-color: #132037;
+  border-color: #132037;
+}
+
+.btn-outline-primary {
+  color: #1a2a4f;
+  border-color: #1a2a4f;
+}
+
+.btn-outline-primary:hover {
+  color: #ffffff;
+  background-color: #1a2a4f;
+  border-color: #1a2a4f;
+}
+
+/* Small screens */
+@media (max-width: 576px) {
+  .hobby-section {
+    padding: 1.3rem 1.1rem;
+  }
+}

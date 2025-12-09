@@ -1,0 +1,102 @@
+/* RESUME PAGE CUSTOM STYLES */
+
+body {
+  background-color: #f5f7fb;
+}
+
+/* Hero */
+.resume-hero {
+  background: linear-gradient(to right, #e8f0ff, #ffffff);
+  border-bottom: 1px solid #d0d7e2;
+}
+
+.resume-hero h1 {
+  color: #1a2a4f;
+}
+
+.resume-hero p {
+  color: #3a4a6f;
+}
+
+/* Main Container */
+.resume-container {
+  max-width: 900px;
+}
+
+/* Section Styling */
+.resume-section {
+  background-color: #ffffff;
+  padding: 1.8rem 1.6rem;
+  margin-bottom: 1.5rem;
+  border-radius: 10px;
+  border-left: 5px solid #1a2a4f;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.06);
+}
+
+.section-title {
+  font-size: 1.7rem;
+  font-weight: 600;
+  color: #1a2a4f;
+  margin-bottom: 1rem;
+}
+
+/* Resume Items */
+.resume-item {
+  margin-bottom: 1.3rem;
+}
+
+.resume-item-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.item-title {
+  font-size: 1.15rem;
+  font-weight: 600;
+  color: #222;
+  margin-bottom: 0.1rem;
+}
+
+.item-title-sm {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #222;
+  margin-bottom: 0.4rem;
+}
+
+.item-dates {
+  font-size: 0.9rem;
+  color: #555;
+}
+
+.item-subtitle {
+  font-size: 0.95rem;
+  color: #555;
+  margin-bottom: 0.3rem;
+}
+
+.item-list {
+  margin: 0.4rem 0 0;
+  padding-left: 1.2rem;
+}
+
+.item-list li {
+  margin-bottom: 0.3rem;
+  line-height: 1.5;
+  color: #333;
+}
+
+/* Small screens fixes */
+@media (max-width: 576px) {
+  .resume-section {
+    padding: 1.4rem 1rem;
+  }
+
+  .resume-item-header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}

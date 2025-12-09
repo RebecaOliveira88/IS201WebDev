@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Scratch Page – My Hobby</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <!-- Custom stylesheet YOU made -->
+  <link rel="stylesheet" href="css/scratch.css" />
+</head>
+
+<header class="page-header" id="top">
+  <div class="header-inner">
+    <h1>My Hobby: [Your Hobby Here]</h1>
+
+    <!-- Hidden checkbox that controls the menu on small screens -->
+    <input type="checkbox" id="nav-toggle" class="nav-checkbox">
+
+    <!-- Label that acts as the hamburger button -->
+    <label for="nav-toggle" class="nav-toggle-label" aria-label="Toggle navigation">
+      ☰
+    </label>
+
+    <!-- Navigation links -->
+    <nav class="page-nav">
+      <a href="index.html">← Back to Professional Site</a>
+      <a href="#tableau-section">Go to Tableau Viz</a>
+      <a href="app.html">Go to My Web App</a>
+    </nav>
+  </div>
+</header>
+
+
+<body id="top">
+ 
+<main>
+    <!-- Requirement: custom background + divs -->
+    <section class="intro box-one">
+      <h2>Why I Love This</h2>
+      <p>
+        Write a short paragraph about your hobby, passion, or interest here.
+      </p>
+    </section>
+
+    <!-- Requirement: ordered list with embedded unordered list -->
+    <section class="box-two">
+      <h2>Top 3 Things About My Hobby</h2>
+      <ol>
+        <li>
+          Reason One
+          <ul>
+            <li>Specific detail A</li>
+            <li>Specific detail B</li>
+          </ul>
+        </li>
+        <li>
+          Reason Two
+          <ul>
+            <li>Specific detail C</li>
+            <li>Specific detail D</li>
+          </ul>
+        </li>
+        <li>
+          Reason Three
+          <ul>
+            <li>Specific detail E</li>
+          </ul>
+        </li>
+      </ol>
+    </section>
+
+    <!-- Requirement: image not from Bootstrap theme -->
+    <section class="box-three">
+      <h2>Gallery</h2>
+      <p>Here’s an image related to my hobby:</p>
+      <img src="img/hobby-photo.jpeg" alt="My hobby example" class="hobby-image" />
+    </section>
+
+    <!-- Requirement: Embedded YouTube video -->
+    <section>
+      <h2>Video Inspiration</h2>
+      <p>Here is a YouTube video that represents or teaches something about my hobby:</p>
+      <div class="video-container">
+        <iframe
+          src="https://www.youtube.com/embed/dQw4w9WgXcQ"
+          title="YouTube video"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+      </div>
+    </section>
+
+    <!-- Requirement: Tableau viz + on-page anchor target -->
+    <section id="tableau-section">
+      <h2>Tableau Visualization</h2>
+      <p>
+        Below is my live Tableau visualization:
+      </p>
+      <!-- Replace this comment with the embed code from Tableau Public -->
+      <div id="tableauViz">
+        <!-- PASTE YOUR TABLEAU EMBED SCRIPT HERE -->
+      </div>
+    </section>
+
+    <!-- On-page anchor: back to top -->
+    <p class="back-to-top">
+      <a href="#top">Back to top ↑</a>
+    </p>
+  </main>
+</body>
+</html>

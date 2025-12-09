@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Résumé – Rebeca Mousser</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CSS -->
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+  />
+
+  <!-- Custom Resume styles -->
+  <link rel="stylesheet" href="css/greyscale.css">
+</head>
+
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">Rebeca Mousser</a>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+        data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+        aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+          <li class="nav-item"><a class="nav-link active" aria-current="page" href="resume.html">Résumé</a></li>
+          <li class="nav-item"><a class="nav-link" href="hobby.html">Hobby</a></li>
+          <li class="nav-item"><a class="nav-link" href="scratch.html">Scratch Page</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <header class="resume-hero">
+    <div class="container py-4">
+      <h1 class="fw-bold mb-1">Résumé</h1>
+      <p class="lead mb-0">
+        Information Systems student focused on making everyday tasks and processes more efficient.
+      </p>
+    </div>
+  </header>
+
+  <!-- Main Resume Content -->
+  <main class="py-4">
+    <div class="container resume-container">
+
+      <!-- Education -->
+      <section class="resume-section">
+        <h2 class="section-title">Education</h2>
+        <div class="resume-item">
+          <div class="resume-item-header">
+            <h3 class="item-title">Bachelor of Science in Information Systems</h3>
+            <span class="item-dates">Expected Graduation: 20XX</span>
+          </div>
+          <div class="item-subtitle">University Name – City, State</div>
+          <ul class="item-list">
+            <li>Relevant coursework: Information Systems, Data Analytics, Databases, Web Development</li>
+            <li>GPA: X.XX / 4.00 (if you want to include it)</li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- Experience -->
+      <section class="resume-section">
+        <h2 class="section-title">Experience</h2>
+
+        <!-- Job 1 -->
+        <div class="resume-item">
+          <div class="resume-item-header">
+            <h3 class="item-title">Job Title</h3>
+            <span class="item-dates">Month 20XX – Present</span>
+          </div>
+          <div class="item-subtitle">Company Name – City, State</div>
+          <ul class="item-list">
+            <li>Use an action verb + result (e.g., “Streamlined daily workflows by organizing tools and resources for the team”).</li>
+            <li>Highlight where you improved efficiency, organization, or communication.</li>
+            <li>Mention specific tools you used (Excel, Google Sheets, scheduling tools, etc.).</li>
+          </ul>
+        </div>
+
+        <!-- Job 2 (duplicate and edit as needed) -->
+        <div class="resume-item">
+          <div class="resume-item-header">
+            <h3 class="item-title">Job Title</h3>
+            <span class="item-dates">Month 20XX – Month 20XX</span>
+          </div>
+          <div class="item-subtitle">Company Name – City, State</div>
+          <ul class="item-list">
+            <li>Describe how you helped customers, coworkers, or patients have smoother experiences.</li>
+            <li>Include any responsibilities that show reliability and attention to detail.</li>
+            <li>Note times you learned a new system or adapted quickly to changes.</li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- Skills -->
+      <section class="resume-section">
+        <h2 class="section-title">Skills</h2>
+        <div class="row">
+          <div class="col-md-6">
+            <h3 class="item-title-sm">Technical</h3>
+            <ul class="item-list">
+              <li>Microsoft Excel (formulas, basic charts, organization)</li>
+              <li>Basic HTML &amp; CSS for web pages</li>
+              <li>Information Systems concepts &amp; process improvement</li>
+              <li>Data organization and documentation</li>
+            </ul>
+          </div>
+          <div class="col-md-6">
+            <h3 class="item-title-sm">Professional</h3>
+            <ul class="item-list">
+              <li>Detail-oriented and organized</li>
+              <li>Strong communication and teamwork</li>
+              <li>Comfortable learning new tools and systems</li>
+              <li>Focused on clarity, structure, and efficiency</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- Honors / Extra (optional) -->
+      <section class="resume-section">
+        <h2 class="section-title">Honors &amp; Involvement</h2>
+        <ul class="item-list">
+          <li>Scholarships, dean’s list, or academic recognition (add if applicable)</li>
+          <li>Clubs, organizations, or volunteer work related to people, service, or systems</li>
+          <li>Any leadership roles or positions of responsibility</li>
+        </ul>
+      </section>
+
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="py-3 bg-dark text-light">
+    <div class="container text-center">
+      <small>© <span id="year"></span> Rebeca Mousser</small>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

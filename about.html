@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>About Me – Rebeca Mousser</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CSS -->
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+  />
+
+  <!-- Custom About page styles -->
+  <link rel="stylesheet" href="css/greyscale.css">
+</head>
+
+<body>
+
+  <!-- Navbar (copy/paste same navbar used on all pages) -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">Rebeca Mousser</a>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+        data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+        aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link active" aria-current="page" href="about.html">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="resume.html">Résumé</a></li>
+          <li class="nav-item"><a class="nav-link" href="hobby.html">Hobby</a></li>
+          <li class="nav-item"><a class="nav-link" href="scratch.html">Scratch Page</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <header class="about-hero">
+    <div class="container text-center py-5">
+      <h1 class="display-5 fw-bold mb-3">Hi, I'm Rebeca Mousser</h1>
+      <p class="lead mb-0">
+        Information Systems student passionate about making everyday tasks easier and more efficient.
+      </p>
+    </div>
+  </header>
+
+  <!-- About Content -->
+  <main class="py-5">
+    <div class="container">
+
+      <!-- Strengths -->
+      <section class="about-section mb-5">
+        <h2 class="section-title">My Strengths</h2>
+        <p>
+          I’m naturally detail-oriented and organized, which helps me spot inefficiencies and create 
+          clean, simple systems for solving them. I enjoy breaking large problems into smaller steps 
+          and making workflows easier to understand and follow.
+        </p>
+        <ul>
+          <li>Strong problem-solving and logical thinking</li>
+          <li>Reliable, consistent, and focused on follow-through</li>
+          <li>Comfortable explaining technical ideas clearly</li>
+          <li>Good at creating structure out of complexity</li>
+        </ul>
+      </section>
+
+      <!-- Motivation -->
+      <section class="about-section mb-5">
+        <h2 class="section-title">What Motivates Me</h2>
+        <p>
+          I’m motivated by helping others feel more confident and in control of their work. 
+          When a process becomes simpler and smoother—saving people time or stress—that’s 
+          incredibly rewarding to me. I love the challenge of learning new skills and seeing 
+          how technology can be used in practical, meaningful ways.
+        </p>
+        <p>
+          Every semester in the Information Systems program pushes me to think more critically 
+          about how systems affect real people, and how thoughtful design can make a huge difference.
+        </p>
+      </section>
+
+      <!-- Passion -->
+      <section class="about-section mb-5">
+        <h2 class="section-title">What I’m Passionate About</h2>
+        <p>
+          I’m passionate about using technology to make life easier, not more complicated. 
+          I love tools, layouts, and workflows that feel intuitive and calming. Anytime I 
+          can turn something messy into something clean, organized, and user-friendly, 
+          that’s when I’m at my best.
+        </p>
+      </section>
+
+      <!-- Future Work -->
+      <section class="about-section mb-4">
+        <h2 class="section-title">The Kind of Work I Want to Do</h2>
+        <p>
+          I want to work in roles where I can bridge the gap between people and the systems they use. 
+          Whether improving business processes, organizing data, or simplifying tools, my goal is to help 
+          teams work smarter, not harder.
+        </p>
+        <ul>
+          <li>Improving and documenting everyday business processes</li>
+          <li>Using data to make tasks clearer and more efficient</li>
+          <li>Helping teams adopt better tools and workflows</li>
+          <li>Creating structure and clarity where things feel overwhelming</li>
+        </ul>
+        <p>
+          Long term, I hope to be someone others rely on when they need clarity, calmness, 
+          and efficiency in their work.
+        </p>
+      </section>
+
+      <!-- CTA Buttons -->
+      <div class="text-center mt-5">
+        <a href="resume.html" class="btn btn-primary me-2">View My Résumé</a>
+        <a href="hobby.html" class="btn btn-outline-secondary">See My Hobby Page</a>
+      </div>
+
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="py-3 bg-dark text-light">
+    <div class="container text-center">
+      <small>© <span id="year"></span> Rebeca Mousser</small>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
